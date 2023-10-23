@@ -7,3 +7,7 @@ Learning objectives:
 - Build an image recognition model using a neural network
 - Learn how to optimize a model
 - Learn how to enhance model inference performance
+
+```shell
+sky gpunode -p 8888 -c jupyter-vm --gpus T4:1 --region us-west-1 --use-spot
+```
